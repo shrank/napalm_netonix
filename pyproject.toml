@@ -23,5 +23,8 @@ dependencies = [
     "napalm"
 ]
 
+[tool.setuptools.packages]
+find = {}
+
 [project.urls]
-Homepage = "https://github.com/shrank/python_netonix_api"
+Homepage = "https://github.com/shrank/napalm_netonix"
