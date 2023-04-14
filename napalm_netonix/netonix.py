@@ -9,8 +9,12 @@ class NetonixDriver(NetworkDriver):
 
     _speed = {
         "1G": 1000.0,
+        "100M-F": 100.0,
+        "100M-H": 100.0,
         "1M-F": 1.0,
         "1M-H": 1.0,
+        "10M-F": 10.0,
+        "10M-H": 10.0,
         "Down": 0.0
     }
 
